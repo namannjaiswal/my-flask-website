@@ -1,96 +1,127 @@
 # 🚗 Electric Vehicle Market Performance Insights
 
-An interactive Business Intelligence dashboard project developed using **Python Flask** and **Tableau Public**. This project provides meaningful insights into the Electric Vehicle (EV) market through interactive visualizations and a modern web interface.
+An interactive Business Intelligence and Data Visualization project developed using **Python Flask** and **Tableau Public**. This project provides comprehensive insights into the Electric Vehicle (EV) industry through interactive dashboards, helping users analyze market trends, battery technologies, pricing, manufacturer performance, customer ratings, and sustainability metrics.
 
 ---
 
 ## 📌 Project Overview
 
-The Electric Vehicle Market Performance Insights project helps users analyze and compare EV market data such as sales performance, battery technology, pricing, customer ratings, sustainability metrics, and manufacturer performance. The dashboards are embedded into a Flask-based website to provide an easy-to-use and interactive experience.
+The Electric Vehicle (EV) industry is growing rapidly due to increasing environmental awareness, government incentives, and advancements in battery technology. This project combines **Flask** and **Tableau Public** to create an interactive web application where users can explore EV market data through dynamic dashboards and stories.
+
+The application provides a centralized platform for analyzing EV market performance and supports data-driven decision-making.
+
+---
+
+## 🎯 Project Objectives
+
+- Analyze Electric Vehicle market trends.
+- Compare EV manufacturers and vehicle categories.
+- Study battery technologies (LFP, NMC, NCA, Sodium-Ion, Solid-State).
+- Visualize sales performance and pricing.
+- Analyze customer ratings and sustainability metrics.
+- Present interactive dashboards through a Flask web application.
 
 ---
 
 ## ✨ Features
 
 - 📊 Interactive Tableau Dashboards
-- 📈 Market Performance Analysis
+- 📈 EV Market Performance Analysis
 - 💼 Business Intelligence Dashboard
 - 🔬 Research Dashboard
-- 📖 Story Dashboard
+- 📖 Interactive Story Dashboard
 - 🌐 Flask-based Responsive Website
-- 🎨 Modern UI with Animations
-- 📱 Mobile-Friendly Design
+- 🎨 Modern User Interface
+- ⚡ Interactive Charts & Filters
 
 ---
 
 ## 🛠️ Technology Stack
 
-- Python
-- Flask
-- HTML5
-- CSS3
-- JavaScript
-- Tableau Public
-- Microsoft Excel (Dataset)
-- Git & GitHub
+| Technology | Purpose |
+|------------|---------|
+| Python | Backend Development |
+| Flask | Web Framework |
+| HTML5 | Web Structure |
+| CSS3 | Styling |
+| JavaScript | Interactivity |
+| Tableau Public | Data Visualization |
+| Microsoft Excel / CSV | Dataset |
+| Git & GitHub | Version Control |
 
 ---
 
 ## 📂 Project Structure
 
 ```
-my-flask-website/
-│── app.py
-│── requirements.txt
-│── README.md
-│── templates/
+EV-Market-Performance-Insights/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+├── templates/
 │   └── index.html
-└── .gitignore
+│
+└── static/
+    ├── css/
+    ├── js/
+    └── images/
 ```
+
+---
+
+## 📊 Dashboards Included
+
+- 🚗 Market Performance Dashboard
+- 📈 Business Intelligence Dashboard
+- 🔬 Research Dashboard
+- 📖 Interactive Story Dashboard
 
 ---
 
 ## 🚀 Installation
 
-1. Clone the repository
+### Clone the Repository
 
 ```bash
-git clone https://github.com/ashishkumar9219953339-maker/EV-Market-Performance.git
+git clone https://github.com/YOUR_USERNAME/EV-Market-Performance-Insights.git
 ```
 
-2. Open the project folder
+### Open Project Folder
 
 ```bash
-cd EV-Market-Performance
+cd EV-Market-Performance-Insights
 ```
 
-3. Create Virtual Environment
+### Create Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-4. Activate Virtual Environment
+### Activate Virtual Environment
 
-Windows
+Windows:
 
 ```bash
 .venv\Scripts\activate
 ```
 
-5. Install dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-6. Run the Flask application
+### Run the Application
 
 ```bash
 python app.py
 ```
 
-Open your browser and visit:
+Open in your browser:
 
 ```
 http://127.0.0.1:5000
@@ -98,32 +129,32 @@ http://127.0.0.1:5000
 
 ---
 
-## 📊 Dashboards Included
+## 📈 Expected Outcomes
 
-- Market Performance Dashboard
-- Business Intelligence Dashboard
-- Research Dashboard
-- Story Dashboard
+- Better understanding of EV market trends.
+- Interactive business intelligence reports.
+- Easy comparison of EV models and manufacturers.
+- Improved decision-making using data visualization.
+- User-friendly analytics platform.
 
 ---
 
-## 🎯 Objectives
+## 🔮 Future Scope
 
-- Analyze EV Market Trends
-- Compare Vehicle Performance
-- Study Battery Technologies
-- Evaluate Manufacturer Performance
-- Support Business Decision Making
-- Present Interactive Business Intelligence Reports
+- Real-time EV market data integration.
+- AI-based sales prediction.
+- Charging station mapping.
+- User authentication and personalized dashboards.
+- Advanced analytics with machine learning.
 
 ---
 
 ## 👨‍💻 Developed By
 
-**Ashish Kumar**
+**Naman Jaiswal**
 
 ---
 
-## 📜 License
+## 📄 License
 
-This project is developed for educational and academic purposes.
+This project is developed for educational and academic purposes only.
